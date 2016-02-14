@@ -29,13 +29,11 @@ namespace SeeingSharp.Tutorials.Introduction04
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        // Members for painting
-        #region
+        #region Members for painting
         private SeeingSharpPanelPainter m_panelPainter;
         #endregion
 
-        // Members for picking
-        #region
+        #region Members for picking
         private DispatcherTimer m_pickingTimer;
         private bool m_isPicking;
         private bool m_isMouseInside;
