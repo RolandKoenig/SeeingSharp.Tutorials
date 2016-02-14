@@ -3,23 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction", "Introduction", "{C970B71E-6AE3-406E-A178-CD0BABE5B712}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction.WindowsStore", "Introduction.WindowsStore", "{C970B71E-6AE3-406E-A178-CD0BABE5B712}"
 	ProjectSection(SolutionItems) = preProject
-		Introduction\README.md = Introduction\README.md
+		Introduction.WindowsStore\README.md = Introduction.WindowsStore\README.md
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction01", "Introduction\SeeingSharp.Tutorials.Introduction01\SeeingSharp.Tutorials.Introduction01.csproj", "{99A00CE5-060B-4C8C-9FE4-0D575D77D08D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction02", "Introduction\SeeingSharp.Tutorials.Introduction02\SeeingSharp.Tutorials.Introduction02.csproj", "{0DBC3417-6D67-41EC-832C-513A8543ACD0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction03", "Introduction\SeeingSharp.Tutorials.Introduction03\SeeingSharp.Tutorials.Introduction03.csproj", "{E97BBADA-6264-45DD-8199-8252AAAD4B55}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction04", "Introduction\SeeingSharp.Tutorials.Introduction04\SeeingSharp.Tutorials.Introduction04.csproj", "{B18A2C2D-9EB9-4E3A-A801-BD7259B7CBF6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{3A27232B-5BD3-47C5-A31E-62735E4B37AB}"
 	ProjectSection(SolutionItems) = preProject
+		Misc\_SeeingSharp.Multimedia.licenseheader = Misc\_SeeingSharp.Multimedia.licenseheader
 		Misc\SolutionInfo.cs = Misc\SolutionInfo.cs
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction01", "Introduction.WindowsStore\SeeingSharp.Tutorials.Introduction01\SeeingSharp.Tutorials.Introduction01.csproj", "{99A00CE5-060B-4C8C-9FE4-0D575D77D08D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction02", "Introduction.WindowsStore\SeeingSharp.Tutorials.Introduction02\SeeingSharp.Tutorials.Introduction02.csproj", "{0DBC3417-6D67-41EC-832C-513A8543ACD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction03", "Introduction.WindowsStore\SeeingSharp.Tutorials.Introduction03\SeeingSharp.Tutorials.Introduction03.csproj", "{E97BBADA-6264-45DD-8199-8252AAAD4B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction04", "Introduction.WindowsStore\SeeingSharp.Tutorials.Introduction04\SeeingSharp.Tutorials.Introduction04.csproj", "{B18A2C2D-9EB9-4E3A-A801-BD7259B7CBF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction.WinForms", "Introduction.WinForms", "{AA434AAB-A6DA-41A8-9CB7-6B65BD0F534C}"
+	ProjectSection(SolutionItems) = preProject
+		Introduction.WinForms\README.md = Introduction.WinForms\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction03", "Introduction.WinForms\SeeingSharp.Tutorials.Introduction03\SeeingSharp.Tutorials.Introduction03.csproj", "{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction01", "Introduction.WinForms\SeeingSharp.Tutorials.Introduction01\SeeingSharp.Tutorials.Introduction01.csproj", "{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction02", "Introduction.WinForms\SeeingSharp.Tutorials.Introduction02\SeeingSharp.Tutorials.Introduction02.csproj", "{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction04", "Introduction.WinForms\SeeingSharp.Tutorials.Introduction04\SeeingSharp.Tutorials.Introduction04.csproj", "{8C4EF057-1DEA-459F-8B46-1967264C96CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +143,70 @@ Global
 		{B18A2C2D-9EB9-4E3A-A801-BD7259B7CBF6}.Release|x86.ActiveCfg = Release|x86
 		{B18A2C2D-9EB9-4E3A-A801-BD7259B7CBF6}.Release|x86.Build.0 = Release|x86
 		{B18A2C2D-9EB9-4E3A-A801-BD7259B7CBF6}.Release|x86.Deploy.0 = Release|x86
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Debug|x64.Build.0 = Debug|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Debug|x86.Build.0 = Debug|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Release|ARM.Build.0 = Release|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Release|x64.ActiveCfg = Release|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Release|x64.Build.0 = Release|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Release|x86.ActiveCfg = Release|Any CPU
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B}.Release|x86.Build.0 = Release|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Debug|ARM.Build.0 = Debug|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Debug|x64.Build.0 = Debug|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Debug|x86.Build.0 = Debug|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Release|ARM.Build.0 = Release|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Release|x64.ActiveCfg = Release|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Release|x64.Build.0 = Release|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Release|x86.ActiveCfg = Release|Any CPU
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292}.Release|x86.Build.0 = Release|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Debug|ARM.Build.0 = Debug|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Debug|x64.Build.0 = Debug|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Debug|x86.Build.0 = Debug|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Release|ARM.ActiveCfg = Release|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Release|ARM.Build.0 = Release|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Release|x64.ActiveCfg = Release|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Release|x64.Build.0 = Release|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Release|x86.ActiveCfg = Release|Any CPU
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97}.Release|x86.Build.0 = Release|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Debug|ARM.Build.0 = Debug|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Debug|x86.Build.0 = Debug|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Release|ARM.ActiveCfg = Release|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Release|ARM.Build.0 = Release|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Release|x64.Build.0 = Release|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Release|x86.ActiveCfg = Release|Any CPU
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,5 +216,9 @@ Global
 		{0DBC3417-6D67-41EC-832C-513A8543ACD0} = {C970B71E-6AE3-406E-A178-CD0BABE5B712}
 		{E97BBADA-6264-45DD-8199-8252AAAD4B55} = {C970B71E-6AE3-406E-A178-CD0BABE5B712}
 		{B18A2C2D-9EB9-4E3A-A801-BD7259B7CBF6} = {C970B71E-6AE3-406E-A178-CD0BABE5B712}
+		{E2DFE3DD-876E-48BA-8E8E-7A11E56B8C5B} = {AA434AAB-A6DA-41A8-9CB7-6B65BD0F534C}
+		{E2633C60-DCBF-4AD7-B436-6B1FB67A2292} = {AA434AAB-A6DA-41A8-9CB7-6B65BD0F534C}
+		{79CB22BC-351C-4A6D-8EF0-8F75CD513E97} = {AA434AAB-A6DA-41A8-9CB7-6B65BD0F534C}
+		{8C4EF057-1DEA-459F-8B46-1967264C96CB} = {AA434AAB-A6DA-41A8-9CB7-6B65BD0F534C}
 	EndGlobalSection
 EndGlobal

@@ -4,17 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{99A00CE5-060B-4C8C-9FE4-0D575D77D08D}</ProjectGuid>
+    <ProjectGuid>{E97BBADA-6264-45DD-8199-8252AAAD4B55}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SeeingSharp.Tutorials.Introduction01</RootNamespace>
-    <AssemblyName>SeeingSharp.Tutorials.Introduction01</AssemblyName>
+    <RootNamespace>SeeingSharp.Tutorials.Introduction03</RootNamespace>
+    <AssemblyName>SeeingSharp.Tutorials.Introduction03</AssemblyName>
     <DefaultLanguage>de-DE</DefaultLanguage>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>SeeingSharp.Tutorials.Introduction01_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>SeeingSharp.Tutorials.Introduction03_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -118,7 +118,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="..\..\..\Misc\_SeeingSharp.Multimedia.licenseheader">
+    <None Include="..\..\Misc\_SeeingSharp.Multimedia.licenseheader">
       <Link>_SeeingSharp.Multimedia.licenseheader</Link>
     </None>
     <None Include="packages.config" />
@@ -128,6 +128,7 @@
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Textures\Background.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
