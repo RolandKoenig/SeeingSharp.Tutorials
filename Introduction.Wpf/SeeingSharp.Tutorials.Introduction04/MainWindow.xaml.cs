@@ -30,7 +30,6 @@ namespace SeeingSharp.Tutorials.Introduction04
         private DispatcherTimer m_pickingTimer;
         private bool m_isPicking;
         private bool m_isMouseInside;
-        private uint m_mouseID;
         private Point m_mousePosition;
         #endregion
 
