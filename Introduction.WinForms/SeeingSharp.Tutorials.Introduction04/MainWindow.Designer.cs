@@ -100,7 +100,7 @@
             this.Controls.Add(this.m_barStatus);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainWindow";
-            this.Text = "Seeing# Tutorials - Introduction 4";
+            this.Text = "Seeing# Tutorials - Introduction 4 (Win.Forms)";
             this.m_barStatus.ResumeLayout(false);
             this.m_barStatus.PerformLayout();
             this.ResumeLayout(false);

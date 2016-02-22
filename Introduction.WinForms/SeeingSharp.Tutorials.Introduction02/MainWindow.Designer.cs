@@ -61,7 +61,7 @@
             this.Controls.Add(this.m_ctrlRenderControl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainWindow";
-            this.Text = "Seeing# Tutorials - Introduction 2";
+            this.Text = "Seeing# Tutorials - Introduction 2 (Win.Forms)";
             this.ResumeLayout(false);
 
         }

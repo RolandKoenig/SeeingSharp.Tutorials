@@ -48,6 +48,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Intro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeingSharp.Tutorials.Introduction04", "Introduction.Wpf\SeeingSharp.Tutorials.Introduction04\SeeingSharp.Tutorials.Introduction04.csproj", "{5D8EECC6-BBBB-4267-8D6D-3C5FBEC3C0D1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{FDD7F7A3-2E60-4ACD-B5CC-27E64B7934D9}"
+	ProjectSection(SolutionItems) = preProject
+		Misc\Screenshots\tutorials.introduction01.png = Misc\Screenshots\tutorials.introduction01.png
+		Misc\Screenshots\tutorials.introduction02.png = Misc\Screenshots\tutorials.introduction02.png
+		Misc\Screenshots\tutorials.introduction03.png = Misc\Screenshots\tutorials.introduction03.png
+		Misc\Screenshots\tutorials.introduction04.png = Misc\Screenshots\tutorials.introduction04.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -301,5 +309,6 @@ Global
 		{65E7F3A8-49A7-4017-AD4D-21996129DDAB} = {994FC63F-63B9-4109-9204-DFB93C49272C}
 		{4023256A-6540-4495-9125-2F023ADF5B17} = {994FC63F-63B9-4109-9204-DFB93C49272C}
 		{5D8EECC6-BBBB-4267-8D6D-3C5FBEC3C0D1} = {994FC63F-63B9-4109-9204-DFB93C49272C}
+		{FDD7F7A3-2E60-4ACD-B5CC-27E64B7934D9} = {3A27232B-5BD3-47C5-A31E-62735E4B37AB}
 	EndGlobalSection
 EndGlobal

@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:SeeingSharp.Tutorials.Introduction03"
         mc:Ignorable="d"
         Icon="Assets/Logo.ico"
-        Title="Seeing# Tutorials - Introduction 3" Height="350" Width="525">
+        Title="Seeing# Tutorials - Introduction 3 (Wpf)" Height="350" Width="525">
     <Grid>
         <seeingsharp:SeeingSharpRendererElement Name="CtrlRenderPanel" />
     </Grid>
