@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 #region Common assembly inf
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("RolandK")]
-[assembly: AssemblyProduct("Seeing# Multimedia Framework")]
+[assembly: AssemblyProduct("Seeing# Tutorials and Samples")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

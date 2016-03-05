@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:seeingsharp="clr-namespace:SeeingSharp.Multimedia.Views;assembly=SeeingSharp.Multimedia"
         xmlns:local="clr-namespace:SeeingSharp.Tutorials.Introduction04"
+        xmlns:seeingsharp="clr-namespace:SeeingSharp.Multimedia.Views;assembly=SeeingSharp.Multimedia"
         mc:Ignorable="d"
         Icon="Assets/Logo.ico"
         Title="Seeing# Tutorials - Introduction 4 (Wpf)" Height="350" Width="525">
