@@ -69,7 +69,7 @@ namespace SeeingSharp.Tutorials.Introduction03
                         "SeeingSharp.Tutorials.Introduction03",
                         true,
                         "Assets/Textures/Background.png"));
-                manipulator.Add(new TexturePainter(resBackgroundTexture), bgLayer.Name);
+                manipulator.Add(new FullscreenTextureObject(resBackgroundTexture), bgLayer.Name);
 
                 // Create pallet geometry resource
                 PalletType pType = new PalletType();

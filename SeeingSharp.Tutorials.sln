@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction.WindowsStore", "Introduction.WindowsStore", "{C970B71E-6AE3-406E-A178-CD0BABE5B712}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,6 +11,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{3A27232B-5BD3-47C5-A31E-62735E4B37AB}"
 	ProjectSection(SolutionItems) = preProject
 		Misc\_SeeingSharp.Multimedia.licenseheader = Misc\_SeeingSharp.Multimedia.licenseheader
+		README.md = README.md
 		Misc\SolutionInfo.cs = Misc\SolutionInfo.cs
 	EndProjectSection
 EndProject
@@ -55,8 +56,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots"
 		Misc\Screenshots\tutorials.introduction03.png = Misc\Screenshots\tutorials.introduction03.png
 		Misc\Screenshots\tutorials.introduction04.png = Misc\Screenshots\tutorials.introduction04.png
 	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specific", "Specific", "{07100378-59B5-47C4-AE22-095683144C93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

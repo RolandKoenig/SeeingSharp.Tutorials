@@ -10,11 +10,17 @@
     <RootNamespace>SeeingSharp.Tutorials.Introduction04</RootNamespace>
     <AssemblyName>SeeingSharp.Tutorials.Introduction04</AssemblyName>
     <DefaultLanguage>de-DE</DefaultLanguage>
-    <TargetPlatformVersion>8.1</TargetPlatformVersion>
-    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
-    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>SeeingSharp.Tutorials.Introduction04_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <AppxBundle>Always</AppxBundle>
+    <PackageCertificateThumbprint>5965785E405B54D1496AE9FBDE9457ACB6F65500</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -118,16 +124,19 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="Properties\Default.rd.xml" />
     <None Include="..\..\Misc\_SeeingSharp.Multimedia.licenseheader">
       <Link>_SeeingSharp.Multimedia.licenseheader</Link>
     </None>
-    <None Include="packages.config" />
+    <Content Include="ApplicationInsights.config" />
+    <None Include="project.json" />
+    <None Include="SeeingSharp.Tutorials.Introduction04_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Logo.scale-100.png" />
-    <Content Include="Assets\SmallLogo.scale-100.png" />
-    <Content Include="Assets\SplashScreen.scale-100.png" />
-    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\Textures\Background.png" />
   </ItemGroup>
   <ItemGroup>
@@ -140,70 +149,8 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="SeeingSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SeeingSharp.1.0.5\lib\portable-win8+wpa81\SeeingSharp.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="SeeingSharp.Multimedia, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SeeingSharp.Multimedia.1.0.5\lib\portable-win8+wpa81\SeeingSharp.Multimedia.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="SharpDX, Version=3.0.2.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SharpDX.3.0.2\lib\portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1\SharpDX.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="SharpDX.Direct2D1, Version=3.0.2.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SharpDX.Direct2D1.3.0.2\lib\portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1\SharpDX.Direct2D1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="SharpDX.Direct3D11, Version=3.0.2.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SharpDX.Direct3D11.3.0.2\lib\portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1\SharpDX.Direct3D11.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="SharpDX.DXGI, Version=3.0.2.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SharpDX.DXGI.3.0.2\lib\portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1\SharpDX.DXGI.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="SharpDX.Mathematics, Version=3.0.2.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SharpDX.Mathematics.3.0.2\lib\portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1\SharpDX.Mathematics.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="SharpDX.MediaFoundation, Version=3.0.2.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SharpDX.MediaFoundation.3.0.2\lib\portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1\SharpDX.MediaFoundation.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="SharpDX.XAudio2, Version=3.0.2.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SharpDX.XAudio2.3.0.2\lib\portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1\SharpDX.XAudio2.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="SharpDX.XInput, Version=3.0.2.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SharpDX.XInput.3.0.2\lib\portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1\SharpDX.XInput.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Numerics.Vectors, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\System.Numerics.Vectors.4.0.0\lib\win8\System.Numerics.Vectors.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Numerics.Vectors.WindowsRuntime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\System.Numerics.Vectors.4.0.0\lib\win8\System.Numerics.Vectors.WindowsRuntime.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Reactive.Core, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Rx-Core.2.2.5\lib\windows8\System.Reactive.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Reactive.Interfaces, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Rx-Interfaces.2.2.5\lib\windows8\System.Reactive.Interfaces.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Reactive.Linq, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Rx-Linq.2.2.5\lib\windows8\System.Reactive.Linq.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-  </ItemGroup>
-  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
-    <VisualStudioVersion>12.0</VisualStudioVersion>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
